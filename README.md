@@ -1,7 +1,7 @@
 
 # MSTAN 
 
-###Predicting air quality with a multi-scale spatio-temporal attention network###
+### Predicting air quality with a multi-scale spatio-temporal attention network ###
 
 <font face="Times new roman" size=4>
 This repo is the implementation of our manuscript entitled Predicting air quality with a multi-scale spatio-temporal attention network. The code is based on Pytorch 1.12.1, and tested on a GeForce RTX 4090 GPU with 24GB memory.
