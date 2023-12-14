@@ -4,7 +4,7 @@ import torch
 
 def pro_data(data,args):
     trainX,trainY,week_train,sta_train,change= [],[],[],[],[]
-    # 训练数据的划分
+    # Divide the training set and validation set
     for i in range(len(data)-args.lag-args.pre_len):
         x_train = data[i:i+args.lag:,:,2:8]   #[48,35,6]
         target_train = data[i+args.lag:i+args.lag+args.pre_len,:,7:8]  #[24,35,1]
