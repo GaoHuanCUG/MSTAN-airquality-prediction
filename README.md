@@ -65,6 +65,6 @@ Model hyperparameters:<br>
 ## Citation
 To Cite MSTAN in Publications<br>
 - A paper describing MSTAN will be submitted to a scientific journal for publication soon<br>
-- For now, you may just cite the URL of the source codes of MSTAN (https://github.com/HPSCIL/MSTAN) in your publications</font>
+- For now, you may just cite the URL of the source codes of MSTAN (https://github.com/HPSCIL/Air-quality-prediction) in your publications</font>
 
 
