@@ -11,7 +11,7 @@ In this study, we present an attention-based approach   for air quality predicti
 
 ## Framework
 
-![MSTAN]('./Fig/整体框架.png')
+![MSTAN]('./Fig/MSTAN.png')
 
 
 ## Requirements
