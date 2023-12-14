@@ -22,7 +22,7 @@ MSTAN uses the following dependencies
 - CUDA 11.8 or latest version
 
 ## Dataset
-We list PM2.5 data for 35 monitoring stations in Beijing from January 1, 2017, to March 27, 2018. In addition, we have provided information on five auxiliary meteorological factors (temperature, humidity, pressure, wind speed, and wind direction). The Beijing_PM2.5 data can be aquired by [here](./MSTAN/Data/Beijing_PM25.xlsx) 
+We list PM2.5 data for 35 monitoring stations in Beijing from January 1, 2017, to March 27, 2018. In addition, we have provided information on five auxiliary meteorological factors (temperature, humidity, pressure, wind speed, and wind direction). The Beijing_PM2.5 data can be aquired by [here](./MSTAN/Data/Beijing_PM25_raw.xlsx) 
 
 We list AQI data for seven air quality monitoring stations in Tianjin from January 1, 2016, to December 31, 2017, excluding any additional auxiliary forecast data.The Tianjin_AQI data can be aquired by [here](./MSTAN/Data/Tianjin_AQI.xlsx) 
 
