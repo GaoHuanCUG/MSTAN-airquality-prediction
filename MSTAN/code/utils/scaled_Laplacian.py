@@ -18,7 +18,7 @@ def scaled_Laplacian(W):
 
     assert W.shape[0] == W.shape[1]
 
-    D = np.diag(np.sum(W, axis=1))  #每行的和 分布在对角线上
+    D = np.diag(np.sum(W, axis=1))  
 
     L = D - W
 
@@ -44,10 +44,10 @@ def cheb_polynomial(L_tilde, K):
 
     N = L_tilde.shape[0]  #35
 
-    cheb_polynomials = [np.identity(N), L_tilde.copy()]  #单位矩阵和L~拼接 构成切比雪夫的前两项
+    cheb_polynomials = [np.identity(N), L_tilde.copy()]  
 
     for i in range(2, K):
-        cheb_polynomials.append(2 * L_tilde * cheb_polynomials[i - 1] - cheb_polynomials[i - 2])  #添加切比雪夫的第三项
+        cheb_polynomials.append(2 * L_tilde * cheb_polynomials[i - 1] - cheb_polynomials[i - 2])  
 
     return cheb_polynomials
 
@@ -57,8 +57,8 @@ def calculate_laplacian_with_self_loop(matrix):
     row_sum = matrix.sum(1)
     d_inv_sqrt = torch.pow(row_sum, -0.5).flatten()
     d_inv_sqrt[torch.isinf(d_inv_sqrt)] = 0.0
-    d_mat_inv_sqrt = torch.diag(d_inv_sqrt)   #取对角线元素
+    d_mat_inv_sqrt = torch.diag(d_inv_sqrt)   
     normalized_laplacian = (
         matrix.matmul(d_mat_inv_sqrt).transpose(0, 1).matmul(d_mat_inv_sqrt)
     )
-    return normalized_laplacian  #[35,35] A`
+    return normalized_laplacian  
