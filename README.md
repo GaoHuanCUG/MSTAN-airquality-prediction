@@ -21,12 +21,15 @@ MSTAN uses the following dependencies
 - Numpy and Pandas
 - CUDA 11.8 or latest version
 
+<<<<<<< HEAD
 ## Dataset
 We list PM2.5 data for 35 monitoring stations in Beijing from January 1, 2017, to March 27, 2018. In addition, we have provided information on five auxiliary meteorological factors (temperature, humidity, pressure, wind speed, and wind direction). The Beijing_PM2.5 data can be aquired by [here](./MSTAN/Data/Beijing_PM25_raw.xlsx) 
 
 We list AQI data for seven air quality monitoring stations in Tianjin from January 1, 2016, to December 31, 2017, excluding any additional auxiliary forecast data.The Tianjin_AQI data can be aquired by [here](./MSTAN/Data/Tianjin_AQI.xlsx) 
 
 
+=======
+>>>>>>> 882af7123ee9f4ddc6a50c9898f0e3ca1b3724ef
 ## Folder Structure
 We list the code of the major modules as follows:<br>
 - The main function to train/test our model: [click here](./MSTAN/code/main.py)<br>
@@ -65,6 +68,6 @@ Model hyperparameters:<br>
 ## Citation
 To Cite MSTAN in Publications<br>
 - A paper describing MSTAN will be submitted to a scientific journal for publication soon<br>
-- For now, you may just cite the URL of the source codes of MSTAN (https://github.com/HPSCIL/Air-quality-prediction) in your publications</font>
+- For now, you may just cite the URL of the source codes of MSTAN (https://github.com/HPSCIL/MSTAN-airquality-prediction) in your publications</font>
 
 
